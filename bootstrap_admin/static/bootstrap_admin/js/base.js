@@ -48,10 +48,6 @@
           show_hide_sidebar_menu();
         }
       }
-      $('.show-hide-sidebar-menu').on('click', function(e){
-        show_hide_sidebar_menu();
-        e.preventDefault();
-      });
     }
     // list models
     $('.nav-sidebar li:first-child a').on('click', function () {
